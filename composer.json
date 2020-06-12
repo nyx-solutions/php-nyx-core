@@ -4,7 +4,7 @@
   "type": "library",
   "keywords": ["php"],
   "license": "BSD-3-Clause",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Jonatas Sas",
@@ -16,6 +16,11 @@
     "php": ">=7.4.0"
   },
   "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "nox\\base\\": "src/"
+    }
   },
   "config": {
     "process-timeout": 1800
