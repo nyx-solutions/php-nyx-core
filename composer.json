@@ -1,0 +1,29 @@
+{
+  "name": "nox-it/php-nox-core",
+  "description": "NOX Core",
+  "type": "library",
+  "keywords": ["php"],
+  "license": "BSD-3-Clause",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jonatas Sas",
+      "email": "atendimento@jsas.com.br"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/nox-it/php-nox-core"
+    }
+  ]
+}
