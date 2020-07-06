@@ -24,18 +24,20 @@
         /**
          * @var Singleton|null
          */
-        private static ?Singleton $_instance = null;
+        protected static ?Singleton $instance = null;
 
         /**
          * @return static
+         *
+         * @noinspection PhpUnused
          */
-        public static function instance()
+        public static function instance(): ?Singleton
         {
-            if (is_null(self::$_instance)) {
-                self::$_instance = new static();
+            if (is_null(static::$instance)) {
+                static::$instance = new static();
             }
 
-            return self::$_instance;
+            return static::$instance;
         }
         #endregion
     }
