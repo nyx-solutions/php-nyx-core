@@ -1,11 +1,11 @@
 <?php
 
-    namespace NYX\base;
+    namespace nyx\base;
 
     /**
      * Class BaseObject
      *
-     * @package NYX\base
+     * @package nyx\base
      */
     class BaseObject
     {

@@ -1,11 +1,11 @@
 <?php
 
-    namespace NYX\base;
+    namespace nyx\base;
 
     /**
      * Class Component
      *
-     * @package NYX\base
+     * @package nyx\base
      */
     class Component extends BaseObject
     {

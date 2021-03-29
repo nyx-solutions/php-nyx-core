@@ -4,8 +4,12 @@
   "type": "library",
   "keywords": ["php"],
   "license": "BSD-3-Clause",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
+    {
+      "name": "NYX Solutions",
+      "email": "nyx@jsas.com.br"
+    },
     {
       "name": "Jonatas Sas",
       "email": "atendimento@jsas.com.br"

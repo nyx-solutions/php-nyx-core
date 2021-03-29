@@ -1,11 +1,11 @@
 <?php
 
-    namespace NYX\base\exceptions;
+    namespace nyx\base\exceptions;
 
     /**
      * Class InvalidActionCallException
      *
-     * @package NYX\base\exceptions
+     * @package nyx\base\exceptions
      */
     class InvalidActionCallException extends \BadMethodCallException
     {

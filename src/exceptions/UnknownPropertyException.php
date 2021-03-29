@@ -1,11 +1,11 @@
 <?php
 
-    namespace NYX\base\exceptions;
+    namespace nyx\base\exceptions;
 
     /**
      * Class UnknownPropertyException
      *
-     * @package NYX\base\exceptions
+     * @package nyx\base\exceptions
      */
     class UnknownPropertyException extends \BadMethodCallException
     {
