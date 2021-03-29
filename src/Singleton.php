@@ -1,11 +1,11 @@
 <?php
 
-    namespace nox\base;
+    namespace NYX\base;
 
     /**
      * Class Singleton
      *
-     * @package nox\base
+     * @package NYX\base
      */
     class Singleton
     {

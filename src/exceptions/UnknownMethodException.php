@@ -1,11 +1,11 @@
 <?php
 
-    namespace nox\base\exceptions;
+    namespace NYX\base\exceptions;
 
     /**
      * Class UnknownMethodException
      *
-     * @package nox\base\exceptions
+     * @package NYX\base\exceptions
      */
     class UnknownMethodException extends \BadMethodCallException
     {

@@ -1,15 +1,15 @@
 <?php
 
-    namespace nox\base;
+    namespace NYX\base;
 
-    use nox\base\exceptions\InvalidCallException;
-    use nox\base\exceptions\UnknownMethodException;
-    use nox\base\exceptions\UnknownPropertyException;
+    use NYX\base\exceptions\InvalidCallException;
+    use NYX\base\exceptions\UnknownMethodException;
+    use NYX\base\exceptions\UnknownPropertyException;
 
     /**
      * Trait ObjectTrait
      *
-     * @package nox\base
+     * @package NYX\base
      */
     trait ObjectTrait
     {

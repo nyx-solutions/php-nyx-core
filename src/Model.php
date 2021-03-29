@@ -1,11 +1,11 @@
 <?php
 
-    namespace nox\base;
+    namespace NYX\base;
 
     /**
      * Class Model
      *
-     * @package nox\base
+     * @package NYX\base
      */
     class Model extends BaseObject
     {

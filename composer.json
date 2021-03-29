@@ -1,10 +1,10 @@
 {
-  "name": "nox-it/php-nox-core",
-  "description": "NOX Core",
+  "name": "nyx-solutions/php-nyx-core",
+  "description": "NYX Core",
   "type": "library",
   "keywords": ["php"],
   "license": "BSD-3-Clause",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Jonatas Sas",
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "nox\\base\\": "src/"
+      "nyx\\base\\": "src/"
     }
   },
   "config": {
@@ -28,7 +28,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/nox-it/php-nox-core"
+      "url": "https://github.com/nyx-solutions/php-nyx-core"
     }
   ]
 }
